@@ -1,4 +1,3 @@
-python manage.py makemigrations polls	
-python manage.py sqlmigrate polls 0001 输出makemigrations改变内容
-
-python manage.py migrate		执行
+编辑models.py改变模型 <br>
+运行```python manage.py makemigrations```为模型的改变生成迁移文件<br>
+运行```python manage.py migrate``` 应用数据库迁移
